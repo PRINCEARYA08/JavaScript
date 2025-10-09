@@ -25,6 +25,6 @@ This repo is created to track my daily progress while learning **JavaScript** �
 ---
 
 ## 🛠️ Tech Stack
-- **Language:** JavaScript (Vanilla JS)  
+- **Language:** JavaScript (Vanilla JS), Html
 - **Editor:** VS Code  
 - **Browser:** Chrome / Edge DevTools
