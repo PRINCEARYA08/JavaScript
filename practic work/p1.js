@@ -1,0 +1,1 @@
+prompt("Good night!");
