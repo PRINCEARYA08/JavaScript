@@ -14,3 +14,21 @@ console.log("Item name is : ", obj.item, "there price: ", obj.price, "there bran
 // tyepe 2 to create object
 let output = `The item name is ${obj.item} and there price is ${obj.price}`;
 console.log(output);
+
+
+//\n use for new line in string
+let sap = "This is line one.\nThis is line two. \nUse with escape sequence.";
+console.log(sap);
+
+//\t use for tab space in string
+let sap2 = "This is line one.\tThis is line two. \tUse with escape sequence.";
+console.log(sap2);
+console.log(sap2.length); // length of the string is 62
+
+// use \\ to print backslash in string
+let path = "C:\\Users\\ASUS\\OneDrive\\Desktop\\JavaScript";
+console.log(path);
+
+// use \' to print single quote in string
+let singleQuote = 'It\'s a beautiful day.';
+console.log(singleQuote);
