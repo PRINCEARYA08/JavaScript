@@ -44,3 +44,10 @@ let indexOfWelcome = text.indexOf("welcome");
 console.log("Index of 'welcome':" + indexOfWelcome);
 
 // These methods are useful for various string manipulations in JavaScript.
+
+let str1 = "   Learn JavaScript with Apna College!   ";
+let str2 = "Master JavaScript Programming.   ";
+
+let combinedStr = (str1).concat(str2);
+
+console.log(combinedStr);
