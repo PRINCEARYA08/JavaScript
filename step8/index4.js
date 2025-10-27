@@ -1,11 +1,14 @@
-for (let i = 1; i <= 5; i++) {
-    console.log("This is line number " + i);
+// let arr = [1, 2, 3, 4, 5];
+
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+// }
+// console.log("Sum using for loop: " + sum);
+
+let arr = [1, 2, 3, 4, 5];
+let sum = 0;
+for (let num of arr) {
+    sum += num;
 }
-for (let j = 1; j <= 50; j++) {
-    console.log(" times loop run ");
-}
-
-console.log("Looping is fun!");
-
-
-// print 1 to 5 times
+console.log("Sum using for...of loop: " + sum);
