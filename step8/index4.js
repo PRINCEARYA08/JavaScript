@@ -6,9 +6,12 @@
 // }
 // console.log("Sum using for loop: " + sum);
 
-let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let sum = 0;
 for (let num of arr) {
     sum += num;
 }
 console.log("Sum using for...of loop: " + sum);
+// let arr = [1, 2, 3, 4, 5];
+let avg = sum / arr.length;
+console.log(`Average of array elements: ${avg}`);
