@@ -1,4 +1,4 @@
-let gameNumber = 12;
+let gameNumber = 20;
 let guess = prompt("Guess a number between 1 and 20:");
 while (gameNumber != guess) {
     guess = prompt("Wrong guess! Try again:");
