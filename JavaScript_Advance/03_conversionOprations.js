@@ -22,7 +22,16 @@ let desigen = true
 
 // Boolean
 
-let isLoggedIn = 1
-let booleanIsLoggIn = Boolean(isLoggedIn)
+// let isLoggedIn = 1
+// let booleanIsLoggIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggIn)
+// console.log(booleanIsLoggIn)
+
+
+
+// string
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
